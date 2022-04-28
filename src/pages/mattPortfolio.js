@@ -43,7 +43,7 @@ const MattPage = () => {
           </p>
           <h2>Projects</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum magna lorem, congue et elit eu, consequat pretium libero. Nam imperdiet fringilla tristique. Morbi ut euismod tortor, id sagittis turpis. Proin euismod leo quis congue lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque ac mollis mi. Nam odio elit, efficitur et accumsan vitae, ultrices malesuada nisl. Vestibulum elementum mauris in tortor semper, molestie auctor augue laoreet.
+            One project that I worked on outside of school was building a pneumatic potato cannon! It was a really fun project that also taught me a lot about the fundamentals of pneumatics. Another project I’ve worked on outside of school is an automatic plant waterer. This involved using a soil moisture sensor that sends the moisture percentage of the soil to an Arduino. From there, the Arduino can control an electric pump that waters the plant. This project was a little more difficult, but also very fun and taught me a lot about electronics. 
           </p>
           
         </div>
