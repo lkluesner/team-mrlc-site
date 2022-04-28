@@ -1,0 +1,13 @@
+@import "../css/typography.css";
+
+.container {
+  margin: auto;
+  max-width: 800px;
+  font-family: "JetBrainsMono-Regular";
+}
+
+.portfolioContainer {
+  margin: auto;
+  max-width: 800px;
+  font-family: "JetBrainsMono-Regular";
+}
