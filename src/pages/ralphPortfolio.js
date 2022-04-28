@@ -1,6 +1,8 @@
 import * as React from 'react'
 import "./../styles/global.css"
 import { Link } from 'gatsby'
+import { Disqus } from 'gatsby-plugin-disqus'
+import { DiscussionEmbed } from 'disqus-react'
 
 const disqusConfig = {
     identifier: 'ralphPortfolio', // you can define anything as "identifier" for each blog post
