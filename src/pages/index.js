@@ -11,10 +11,10 @@ const IndexPage = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum magna lorem, congue et elit eu, consequat pretium libero. Nam imperdiet fringilla tristique. Morbi ut euismod tortor, id sagittis turpis. Proin euismod leo quis congue lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque ac mollis mi. Nam odio elit, efficitur et accumsan vitae, ultrices malesuada nisl. Vestibulum elementum mauris in tortor semper, molestie auctor augue laoreet.
       </p>
     <Layout pageTitle="Our Team">
-      <Link to="/mattPortfolio"><button>Matt</button></Link>
-      <Link to="/ralphPortfolio"><button>Ralph</button></Link>
-      <Link to="/lukePortfolio"><button>Luke</button></Link>
-      <Link to="/chrisPortfolio"><button>Chris</button></Link>
+      <Link to="/mattPortfolio"><button>M</button></Link>
+      <Link to="/ralphPortfolio"><button>R</button></Link>
+      <Link to="/lukePortfolio"><button className="lukeButton">L</button></Link>
+      <Link to="/chrisPortfolio"><button>C</button></Link>
     </Layout>
     </Layout>
 
