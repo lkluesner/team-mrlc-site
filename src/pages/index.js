@@ -29,7 +29,7 @@ const IndexPage = () => {
       
     </div>
     <div className="container">
-      <h1>Our Team</h1>
+      <h1>Our Members</h1>
       <Link to="/mattPortfolio"><button>M</button></Link>
       <Link to="/ralphPortfolio"><button>R</button></Link>
       <Link to="/lukePortfolio"><button className="lukeButton">L</button></Link>
