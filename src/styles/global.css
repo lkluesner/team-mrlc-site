@@ -8,6 +8,12 @@ body {
     font-family: "JetBrainsMono-Regular";
    }
 
+.container {
+    margin: auto;
+    max-width: 800px;
+    font-family: "JetBrainsMono-Regular";
+  }
+
 button {
     height: 180px;
     width: 180px;

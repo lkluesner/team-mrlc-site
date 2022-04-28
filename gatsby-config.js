@@ -4,3 +4,14 @@ module.exports = {
   },
   plugins: [],
 }
+
+module.exports = {
+  plugins: [
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `team-mrcl-site`
+      }
+    },
+  ]
+}

@@ -1,23 +1,36 @@
 import * as React from 'react'
-import Layout from '../components/layout'
 import "./../styles/global.css"
 import { Link } from 'gatsby'
+import { Disqus } from 'gatsby-plugin-disqus'
+
+const disqusConfig = {
+    shortname: "team-mrcl-site",
+    config: { identifier:"lukePortfolio" },
+  }
 
 
 const LukePage = () => {
-  return (
-    <Layout pageTitle="LUKE">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum magna lorem, congue et elit eu, consequat pretium libero. Nam imperdiet fringilla tristique. Morbi ut euismod tortor, id sagittis turpis. Proin euismod leo quis congue lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque ac mollis mi. Nam odio elit, efficitur et accumsan vitae, ultrices malesuada nisl. Vestibulum elementum mauris in tortor semper, molestie auctor augue laoreet.
-      </p>
-    <Layout pageTitle="Our Team">
-      <Link to="../mattPortfolio"><button>Matt</button></Link>
-      <Link to="../ralphPortfolio"><button>Ralph</button></Link>
-      <Link to="../lukePortfolio"><button>Luke</button></Link>
-      <Link to="../chrisPortfolio"><button>Chris</button></Link>
-    </Layout>
-    </Layout>
-
-  )
+    return (
+        <main>
+        <div className="container">
+          <title>Team MRLC</title>
+          
+            <h1>Team MRLC</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum magna lorem, congue et elit eu, consequat pretium libero. Nam imperdiet fringilla tristique. Morbi ut euismod tortor, id sagittis turpis. Proin euismod leo quis congue lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque ac mollis mi. Nam odio elit, efficitur et accumsan vitae, ultrices malesuada nisl. Vestibulum elementum mauris in tortor semper, molestie auctor augue laoreet.
+          </p>
+          
+        </div>
+        <div className="container">
+          <h1>Our Team</h1>
+          <Link to="/mattPortfolio"><button>M</button></Link>
+          <Link to="/ralphPortfolio"><button>R</button></Link>
+          <Link to="/lukePortfolio"><button className="lukeButton">L</button></Link>
+          <Link to="/chrisPortfolio"><button>C</button></Link>
+        </div>
+        <Disqus config={disqusConfig} />
+        </main>
+    
+      )
 }
 export default LukePage
