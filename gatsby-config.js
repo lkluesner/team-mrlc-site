@@ -10,7 +10,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `team-mrcl-site`
+        shortname: `team-mrlc-site`
       }
     },
   ]

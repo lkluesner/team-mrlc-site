@@ -2,10 +2,12 @@ import * as React from 'react'
 import "./../styles/global.css"
 import { Link } from 'gatsby'
 import { Disqus } from 'gatsby-plugin-disqus'
+import { DiscussionEmbed } from 'disqus-react'
 
 const disqusConfig = {
-    shortname: "team-mrcl-site",
-    config: { identifier:"lukePortfolio" },
+    identifier: 'lukePortfolio', // you can define anything as "identifier" for each blog post
+    title: 'Luke Portfolio',
+    url: 'https://teammrlcsitemain.gatsbyjs.io/lukePortfolio', 
   }
 
 
@@ -28,7 +30,7 @@ const LukePage = () => {
           <Link to="/lukePortfolio"><button className="lukeButton">L</button></Link>
           <Link to="/chrisPortfolio"><button>C</button></Link>
         </div>
-        <Disqus config={disqusConfig} />
+        <DiscussionEmbed shortname={"team-mrlc-site"} config={disqusConfig} />
         </main>
     
       )
