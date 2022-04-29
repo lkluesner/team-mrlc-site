@@ -47,6 +47,8 @@ const MattPage = () => {
           <p>
             One project that I worked on outside of school was building a pneumatic potato cannon! It was a really fun project that also taught me a lot about the fundamentals of pneumatics. Another project I’ve worked on outside of school is an automatic plant waterer. This involved using a soil moisture sensor that sends the moisture percentage of the soil to an Arduino. From there, the Arduino can control an electric pump that waters the plant. This project was a little more difficult, but also very fun and taught me a lot about electronics. 
           </p>
+          <br></br>
+          <p>You can reach me on <Link to="https://www.linkedin.com/in/matt-cavoto-a82b82196/">LinkedIn.</Link></p>
           
         </div>
         <div className='disquscontainer'>

@@ -55,8 +55,9 @@ const LukePage = () => {
           <p>
             Another Project I am working on is for the University of Iowa Hospitals and Clinics Network Team. This project scans the hospital network using an SNMP script I wrote using PySNMP to get the devices connected to the network. This then stores this data in a timestamped MySQL server. This project also includes a multitude of different scripts to search the data stored in the MySQL server to help the Network Team diagnose problems faster. It has been a fun project where I gained alot of experience developing software in a professional enviroment.
           </p>
-          
-          
+          <br></br>
+          <p>You can reach me on <Link to="https://www.linkedin.com/in/luke-kluesner-1316211b9/">LinkedIn.</Link></p>
+          <br></br>
         </div>
         <div className='disquscontainer'>
         <DiscussionEmbed shortname={"team-mrlc-site"} config={disqusConfig} />
