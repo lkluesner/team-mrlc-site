@@ -39,7 +39,11 @@ const AboutPage = () => {
           <h2>Our Projects</h2>
           <p>
             <h3>Lab1</h3>
-            <p></p>
+            <p>
+              For this lab we were tasked with creating a box that has a temperature probe connected capable of reading temperature data. 
+              After reading this data, we want to be able to view this data in a graphical format in real time. 
+              We also want to be alerted via text message when the temperature falls outside a certain range. 
+            </p>
             <h3>Lab2</h3>
             <p></p>
             <h3>Lab3</h3>
