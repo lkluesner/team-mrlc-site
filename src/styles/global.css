@@ -98,6 +98,14 @@ button {
     background-size: 100%;
 }
 
+.ralphPic {
+    background-image: url("https://avatars.githubusercontent.com/u/18646146?v=4");
+    background-size: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+
 /* From uiverse.io */   
    button.learn-more {
     width: 12rem;
