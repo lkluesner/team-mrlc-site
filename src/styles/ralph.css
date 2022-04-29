@@ -1,0 +1,73 @@
+
+h3 {
+    text-align: center;
+    padding: 0.1%;
+}
+
+.techrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.techrow div {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    height: 100%;
+    width: 100%;
+    transition-property: width box-shadow z-index;
+    transition-duration: 0.3s;
+    z-index: 0;
+}
+
+.techrow div:hover {
+    width: 150%;
+    box-shadow: 0px 0px 10px #3e3939;
+    z-index: 1;
+}
+
+.techrow div i {
+    text-align: center;
+    font-size: 5em;
+}
+
+.techrow strong {
+    text-align: center;
+    padding: 4px;
+}
+
+.html5 {
+    background-color: #F06529;
+    
+}
+
+.css {
+    background-color: #0C73B8;
+}
+
+.js {
+    
+    background-color: #F0DB4F;
+}
+
+.techrow .js i, .techrow .js strong {
+    color: #323330;
+}
+
+.and {
+    background-color: #A4C639;
+}
+
+.java {
+    background-color: #007396;
+}
+
+.python {
+    background-color: #FFD43B;
+}
+
+.python i, .python strong {
+    color: #323330;
+}
