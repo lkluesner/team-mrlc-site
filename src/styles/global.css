@@ -76,6 +76,14 @@ body {
     background-image: url("./../images/chrisDoggos.jpg")
 }
 
+.lab1Pic{
+    background-image: url("./../images/lab1.png")
+}
+
+.lab2Pic{
+    background-image: url("./../images/lab2.png")
+}
+
 .chrisButton {
     background-image: url("./../images/chrisButtonPic.jpg");
     background-size: 100%;

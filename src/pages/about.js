@@ -18,13 +18,12 @@ const AboutPage = () => {
         <div className="container">
           <title>Luke</title>
           
-          <h1>Our Team</h1>
-          <h2>Our Members</h2>
+          <h1>About Our Team</h1>
+          <h2>About Our Team</h2>
           <div className='imagecontainer'>
           </div>
-          <br></br>
           <div className="container">
-          
+          <h1>Our Members</h1>
           <Link to="/mattPortfolio"><button className="mattButton imageButton">M</button></Link>
           <Link to="/ralphPortfolio"><button className="ralphButton imageButton">R</button></Link>
           <Link to="/chrisPortfolio"><button className="chrisButton imageButton">C</button></Link>
@@ -37,13 +36,16 @@ const AboutPage = () => {
             <h3>Luke</h3>
           </div>
           <h2>Our Projects</h2>
-          
+          <div className='imagecontainer lab1Pic'></div>
+          <br></br>
             <h3>Lab1</h3>
             <p>
               For this lab we were tasked with creating a box that has a temperature probe connected capable of reading temperature data. 
               After reading this data, we want to be able to view this data in a graphical format in real time. 
               We also want to be alerted via text message when the temperature falls outside a certain range. 
             </p>
+            <div className='imagecontainer lab2Pic'></div>
+            <br></br>
             <h3>Lab2</h3>
 
             <p>
