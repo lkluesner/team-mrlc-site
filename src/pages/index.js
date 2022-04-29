@@ -38,8 +38,8 @@ const IndexPage = () => {
     <div className="container">
       <h3>Matt</h3>
       <h3>Ralph</h3>
-      <h3>Luke</h3>
       <h3>Chris</h3>
+      <h3>Luke</h3>
     </div>
     
     </main>
