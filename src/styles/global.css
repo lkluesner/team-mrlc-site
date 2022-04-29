@@ -53,6 +53,9 @@ body {
 .chrisChessPic{
     background-image: url("./../images/chrisChessBoard.png")
 }
+.chrisDoggos{
+    background-image: url("./../images/chrisDoggos.jpg")
+}
 
 h1 {
     font-size: 50px;
