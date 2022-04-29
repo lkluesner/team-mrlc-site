@@ -83,6 +83,8 @@ const RalphPage = () => {
 
           </section>
 
+          <p>You can reach me on <a href='https://www.linkedin.com/in/ralph-nahra-2284044a/'>LinkedIn</a></p>
+
         </div>
         <div className='disquscontainer'>
         <DiscussionEmbed shortname={"team-mrlc-site"} config={disqusConfig} />
