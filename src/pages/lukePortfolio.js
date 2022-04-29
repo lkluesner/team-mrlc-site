@@ -41,9 +41,21 @@ const LukePage = () => {
             The pictures above are of me hiking Camelback Mountain in Arizona, and of me on a ski trip in Aspen, CO.
           </p>
           <h2>Projects</h2>
+          <div className='imagecontainer lukePic3'>
+          </div>
+          <br></br>
+          <h3>IOT Automated Chessboard</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum magna lorem, congue et elit eu, consequat pretium libero. Nam imperdiet fringilla tristique. Morbi ut euismod tortor, id sagittis turpis. Proin euismod leo quis congue lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque ac mollis mi. Nam odio elit, efficitur et accumsan vitae, ultrices malesuada nisl. Vestibulum elementum mauris in tortor semper, molestie auctor augue laoreet.
+            One of the projects I'm working on is an IOT Automated Chessboard. This project combines the feel of real chess board, with the convience of online chess. Users will be able to play on a real chess board with someone hundreds of miles away. They will also be able to replay famous chess matches from history and see them played in front of their eyes. Lastly they can play an AI opponent on a real chess board with ease. This project works by having an XY plotter, I designed, control the movement of the pieces using magnets embedded in the pieces. Majority of the pieces are 3d printed. The XY table is controlled by custom arduino code using the AccelStepper library, and the chess game is controlled on a raspberry pi utilizing the stockfish engine. This project picture is of it still in progress, and the final prototype will be much nicer.
           </p>
+          <div className='imagecontainer lukePic4'>
+          </div>
+          <br></br>
+          <h3>Uiowa Hospitals HCIS "ipmac" Project</h3>
+          <p>
+            Another Project I am working on is for the University of Iowa Hospitals and Clinics Network Team. This project scans the hospital network using an SNMP script I wrote using PySNMP to get the devices connected to the network. This then stores this data in a timestamped MySQL server. This project also includes a multitude of different scripts to search the data stored in the MySQL server to help the Network Team diagnose problems faster. It has been a fun project where I gained alot of experience developing software in a professional enviroment.
+          </p>
+          
           
         </div>
         <div className='disquscontainer'>

@@ -54,6 +54,18 @@ body {
     background-size: 101%;
 }
 
+.lukePic3 {
+    background-image: url("./../images/lukePic3.jpg");
+    background-size: 101%;
+}
+
+.lukePic4 {
+    background-image: url("./../images/lukePic4.jpg");
+    background-size: 101%;
+    width: 295px;
+    height: 158px;
+}
+
 .mattPic1 {
     background-image: url("./../images/mattPic1.png");
     background-size: 101%;
