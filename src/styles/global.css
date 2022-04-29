@@ -54,6 +54,16 @@ body {
     background-size: 101%;
 }
 
+.chrisPic1{
+    background-image: url("./../images/chrisShuttlePic.jpg")
+}
+.chrisChessPic{
+    background-image: url("./../images/chrisChessBoard.png")
+}
+.chrisDoggos{
+    background-image: url("./../images/chrisDoggos.jpg")
+}
+
 .mattPic1 {
     background-image: url("./../images/mattPic1.png");
     background-size: 101%;
@@ -75,6 +85,7 @@ body {
     background-image: url("./../images/mattPic4.jpg");
     background-size: 101%;
     width: 300px;
+
 }
 
 h1 {
