@@ -93,6 +93,11 @@ button {
     background-size: 100%;
 }
 
+.ralphButton {
+    background-image: url("https://avatars.githubusercontent.com/u/18646146?v=4");
+    background-size: 100%;
+}
+
 /* From uiverse.io */   
    button.learn-more {
     width: 12rem;
