@@ -76,6 +76,11 @@ body {
     background-image: url("./../images/chrisDoggos.jpg")
 }
 
+.chrisButton {
+    background-image: url("./../images/chrisButtonPic.jpg");
+    background-size: 100%;
+}
+
 .mattPic1 {
     background-image: url("./../images/mattPic1.png");
     background-size: 101%;
