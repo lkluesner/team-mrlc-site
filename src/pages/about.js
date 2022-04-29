@@ -18,17 +18,35 @@ const AboutPage = () => {
         <div className="container">
           <title>Luke</title>
           
-          <h1>About Our Team</h1>
-          <h2>About Our Team</h2>
+          <h1>Our Team</h1>
+          <h2>Our Members</h2>
           <div className='imagecontainer'>
           </div>
+          <br></br>
           <div className="container">
-          <h1>Our Members</h1>
+          
           <Link to="/mattPortfolio"><button className="mattButton imageButton">M</button></Link>
           <Link to="/ralphPortfolio"><button className="ralphButton imageButton">R</button></Link>
           <Link to="/chrisPortfolio"><button className="chrisButton imageButton">C</button></Link>
           <Link to="/lukePortfolio"><button className="lukeButton imageButton">L</button></Link>
           </div>
+          <div className="container">
+            <h3>Matt</h3>
+            <h3>Ralph</h3>
+            <h3>Chris</h3>
+            <h3>Luke</h3>
+          </div>
+          <h2>Our Projects</h2>
+          <p>
+            <h3>Lab1</h3>
+            <p></p>
+            <h3>Lab2</h3>
+            <p></p>
+            <h3>Lab2</h3>
+            <p></p>
+
+          </p>
+          <h2>Our Final Project</h2>
           <p>
 
           </p>
