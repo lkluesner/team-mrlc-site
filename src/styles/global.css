@@ -54,6 +54,25 @@ body {
     background-size: 101%;
 }
 
+.mattPic1 {
+    background-image: url("./../images/mattPic1.PNG");
+    background-size: 101%;
+}
+
+.mattPic2 {
+    background-image: url("./../images/mattPic2.JPG");
+    background-size: 101%;
+}
+
+.mattPic3 {
+    background-image: url("./../images/mattPic3.JPG");
+    background-size: 101%;
+}
+
+.mattPic4 {
+    background-image: url("./../images/mattPic4.jpg");
+    background-size: 101%;
+}
 
 h1 {
     font-size: 50px;
