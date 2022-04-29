@@ -29,7 +29,7 @@ const ChrisPage = () => {
         
         <h1>Chris</h1>
         <h2>About</h2>
-        <div className='imagecontainer lukePic1'>
+        <div className='imagecontainer chrisPic1'>
 
         </div>
         <p>

@@ -47,7 +47,9 @@ body {
     background-image: url("./../images/lukePic2.jpeg");
     background-size: 101%;
 }
-
+.chrisPic1{
+    background-image: url("./../images/chrisShuttlePic.jpg")
+}
 
 h1 {
     font-size: 50px;
