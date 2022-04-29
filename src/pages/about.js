@@ -42,13 +42,13 @@ const AboutPage = () => {
             <p></p>
             <h3>Lab2</h3>
             <p></p>
-            <h3>Lab2</h3>
-            <p></p>
+            <h3>Lab3</h3>
+            <p>You are looking at our 3rd design lab right now! It is this portfolio website, where we learned about UI/UX design. We utilized gatsby and disqus to make a team portfolio page where users can comment. It was a super fun project and a great way to finish the semester.</p>
 
           </p>
           <h2>Our Final Project</h2>
           <p>
-
+            For our final senior design project we are working in coordination with a sponser, the Toor Lab. Together we are developing a IOT data aquisition platform that utilizes a sensor developed by the Toor lab to detect cancer in easy and fast way. We are starting this project next semester and are very excited to get started!
           </p>
           
           
