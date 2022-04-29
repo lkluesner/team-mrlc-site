@@ -42,7 +42,7 @@ const ChrisPage = () => {
         <h2>Experience</h2>
         <h3>Data Science / Analytics Internship  </h3>
         <p>
-        My most recent experience was Data Science / Analytics intern at John Deere Financial doing time series forecasting for the Litigation and Recovery Team. As a result I learned a lot about the innerworkings of a captive financial institution and how customer financial data can be leveraged with statistical forecasting methods to predict future outcomes.
+        My most recent experience was Data Science / Analytics intern at John Deere Financial doing time series forecasting. As a result I learned a lot about the innerworkings of a captive financial institution and how customer financial data can be leveraged with statistical forecasting methods to predict future outcomes.
         </p>
         <h3>Data architecture</h3>
         <p>
