@@ -20,6 +20,8 @@ const AboutPage = () => {
           
           <h1>About Our Team</h1>
           <h2>About Our Team</h2>
+          <div className='imagecontainer lab1Pic'></div>
+          <div className='imagecontainer lab2Pic'></div>
           <div className='imagecontainer'>
           </div>
           <div className="container">
