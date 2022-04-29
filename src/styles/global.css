@@ -43,11 +43,62 @@ body {
     position: fixed;
 }
 
+.lukePic1 {
+    background-image: url("./../images/lukePic1.jpg");
+    background-size: 101%;
+    height: 900px;
+}
+
 .lukePic2 {
     background-image: url("./../images/lukePic2.jpeg");
     background-size: 101%;
 }
 
+
+.lukePic3 {
+    background-image: url("./../images/lukePic3.jpg");
+    background-size: 101%;
+}
+
+.lukePic4 {
+    background-image: url("./../images/lukePic4.jpg");
+    background-size: 101%;
+    width: 295px;
+    height: 158px;
+}
+.chrisPic1{
+    background-image: url("./../images/chrisShuttlePic.jpg")
+}
+.chrisChessPic{
+    background-image: url("./../images/chrisChessBoard.png")
+}
+.chrisDoggos{
+    background-image: url("./../images/chrisDoggos.jpg")
+}
+
+.mattPic1 {
+    background-image: url("./../images/mattPic1.png");
+    background-size: 101%;
+    width: 300px;
+}
+
+.mattPic2 {
+    background-image: url("./../images/mattPic2.jpg");
+    background-size: 101%;
+    width: 300px;
+}
+
+.mattPic3 {
+    background-image: url("./../images/mattPic3.jpg");
+    background-size: 101%;
+}
+
+.mattPic4 {
+    background-image: url("./../images/mattPic4.jpg");
+    background-size: 101%;
+    width: 300px;
+
+}
 
 h1 {
     font-size: 50px;
