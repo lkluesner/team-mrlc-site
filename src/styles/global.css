@@ -43,6 +43,12 @@ body {
     position: fixed;
 }
 
+.lukePic1 {
+    background-image: url("./../images/lukePic1.jpg");
+    background-size: 101%;
+    height: 900px;
+}
+
 .lukePic2 {
     background-image: url("./../images/lukePic2.jpeg");
     background-size: 101%;
