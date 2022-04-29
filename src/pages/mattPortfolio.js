@@ -13,7 +13,7 @@ const disqusConfig = {
 
 const MattPage = () => {
     return (
-         <main>
+        <main>
         <div className="backbuttoncontainer">
             <Link to="../">
             <button className="back-button">
@@ -36,15 +36,18 @@ const MattPage = () => {
             My name is Matt Cavoto and I am currently a senior at the University of Iowa. I’m majoring in Electrical Engineering with a focus in Sustainable Energy. In my free time I love to hang out with family and friends. I also enjoy spending time in nature. Some things I enjoy doing in nature are hiking, snowboarding, and wakeboarding! 
           </p>
           <div className='imagecontainer mattPic2'>
+          </div>
+          <br></br>
           <div className='imagecontainer mattPic3'>
           </div>
          
           <h2>Projects</h2>
+          <div className='imagecontainer mattPic4'>  
+          </div>
           <p>
             One project that I worked on outside of school was building a pneumatic potato cannon! It was a really fun project that also taught me a lot about the fundamentals of pneumatics. Another project I’ve worked on outside of school is an automatic plant waterer. This involved using a soil moisture sensor that sends the moisture percentage of the soil to an Arduino. From there, the Arduino can control an electric pump that waters the plant. This project was a little more difficult, but also very fun and taught me a lot about electronics. 
           </p>
-          <div className='imagecontainer mattPic4'>  
-        
+          
         </div>
         <div className='disquscontainer'>
         <DiscussionEmbed shortname={"team-mrlc-site"} config={disqusConfig} />

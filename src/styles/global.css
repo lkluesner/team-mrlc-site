@@ -55,23 +55,26 @@ body {
 }
 
 .mattPic1 {
-    background-image: url("./../images/mattPic1.PNG");
+    background-image: url("./../images/mattPic1.png");
     background-size: 101%;
+    width: 300px;
 }
 
 .mattPic2 {
-    background-image: url("./../images/mattPic2.JPG");
+    background-image: url("./../images/mattPic2.jpg");
     background-size: 101%;
+    width: 300px;
 }
 
 .mattPic3 {
-    background-image: url("./../images/mattPic3.JPG");
+    background-image: url("./../images/mattPic3.jpg");
     background-size: 101%;
 }
 
 .mattPic4 {
     background-image: url("./../images/mattPic4.jpg");
     background-size: 101%;
+    width: 300px;
 }
 
 h1 {
