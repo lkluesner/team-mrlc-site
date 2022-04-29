@@ -35,6 +35,7 @@ const ChrisPage = () => {
         <p>
         I am a Senior, double major in Computer Science and Computer Engineering. My goal is to be a member of a cutting-edge company that will allow me to build on my experience to develop, and maintain a wide variety of software applications, exposure to artificial intelligence, machine learning, coding and critical thinking. Ideally, I would like an Internship or Co-Op, in or out of state, that can offer an ongoing relationship that will expand and grow as my knowledge, skill set and coursework becomes more specialized with an opportunity for employment after graduation. 
         </p>
+        <h2>Hobbies</h2>
         <div className='imagecontainer lukePic2'>
 
         </div>
@@ -52,7 +53,9 @@ const ChrisPage = () => {
           electric stepper motors, path finding algorithms and AI enabled chess engines. We were successful in 
           presenting a function prototype and enjoyed engineering the product from scratch.
         </p>
-        
+        <div className='imagecontainer chrisChessPic'>
+
+        </div>
       </div>
       <div className='disquscontainer'>
       <DiscussionEmbed shortname={"team-mrlc-site"} config={disqusConfig} />
