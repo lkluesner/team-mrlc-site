@@ -28,7 +28,7 @@ const ChrisPage = () => {
         <title>Chris</title>
         
         <h1>Chris</h1>
-        <p> Check out my LinkedIn <Link to="" >LinkedIn</Link></p>
+        <p> Check out my <Link to="" >LinkedIn</Link></p>
         <h2>About</h2>
         <div className='imagecontainer chrisPic1'>
 

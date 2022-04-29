@@ -32,8 +32,8 @@ const IndexPage = () => {
       <h1>Our Members</h1>
       <Link to="/mattPortfolio"><button className="mattButton imageButton">M</button></Link>
       <Link to="/ralphPortfolio"><button className="ralphButton imageButton">R</button></Link>
-      <Link to="/lukePortfolio"><button className="lukeButton imageButton">L</button></Link>
       <Link to="/chrisPortfolio"><button className="chrisButton imageButton">C</button></Link>
+      <Link to="/lukePortfolio"><button className="lukeButton imageButton">L</button></Link>
     </div>
     <div className="container">
       <h3>Matt</h3>
